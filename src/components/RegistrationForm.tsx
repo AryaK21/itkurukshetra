@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Check, User, Hash, Trophy, Loader2, Sparkles, AlertCircle } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
-type Sport = 'Football' | 'Cricket' | 'Volleyball' | 'Tug of War' | 'Basketball' | 'Chess' | 'Table Tennis' | 'Badminton' | 'Throwball' | 'Carrom';
+type Sport = 'Football' | 'Cricket' | 'Volleyball' | 'Tug of War' | 'Basketball' | 'Chess' | 'Table Tennis' | 'Badminton' | 'Throwball' | 'Carrom' | 'Kabaddi';
 type Gender = 'boy' | 'girl';
 
 export default function RegistrationForm() {
@@ -91,7 +91,7 @@ export default function RegistrationForm() {
         );
     };
 
-    const availableSports: Sport[] = ['Football', 'Cricket', 'Volleyball', 'Tug of War', 'Basketball', 'Chess', 'Table Tennis', 'Badminton', 'Throwball', 'Carrom'];
+    const availableSports: Sport[] = ['Football', 'Cricket', 'Volleyball', 'Tug of War', 'Basketball', 'Kabaddi', 'Chess', 'Table Tennis', 'Badminton', 'Throwball', 'Carrom'];
 
     if (success) {
         return (

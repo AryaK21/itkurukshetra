@@ -50,6 +50,14 @@ export const SPORTS_DATA: SportData[] = [
         accentClass: "from-orange-400 to-orange-600",
     },
     {
+        id: "kabaddi",
+        name: "Kabaddi",
+        category: "Team",
+        iconName: "Activity",
+        description: "Raw strength, agility, and team raids.",
+        accentClass: "from-yellow-500 to-amber-700",
+    },
+    {
         id: "chess",
         name: "Chess",
         category: "Individual",
