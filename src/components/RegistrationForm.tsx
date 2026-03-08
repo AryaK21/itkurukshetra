@@ -176,9 +176,8 @@ export default function RegistrationForm() {
                             placeholder="Full Name"
                             value={name}
                             onChange={(e) => setName(e.target.value)}
-                            className="glass-input w-full pl-11"
+                            className="glass-input w-full px-4"
                         />
-                        <User className="w-5 h-5 text-slate-500 absolute left-4 top-3.5" />
                     </div>
 
                     <div className="grid grid-cols-2 gap-3 pt-2">
@@ -248,11 +247,10 @@ export default function RegistrationForm() {
                             placeholder="Enter Jersey Number (e.g. 10)"
                             value={jerseyNumber}
                             onChange={(e) => setJerseyNumber(e.target.value)}
-                            className="glass-input w-full pl-11 text-lg font-mono"
+                            className="glass-input w-full px-4 text-lg font-mono"
                             min="0"
                             max="999"
                         />
-                        <Hash className="w-5 h-5 text-slate-500 absolute left-4 top-3.5" />
                     </div>
                     <p className="text-xs text-slate-500 ml-1">
                         * You cannot select a number if someone of your gender in ANY of your selected sports already has it.

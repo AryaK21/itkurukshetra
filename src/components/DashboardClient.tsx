@@ -48,7 +48,7 @@ export default function DashboardClient({ sportsData }: { sportsData: SportData[
                         </span>
                     </h1>
                     <p className="max-w-2xl mx-auto text-lg md:text-xl text-slate-300 mb-12 drop-shadow-md font-medium">
-                        The Information Technology department&apos;s elite lineup. Claim your jersey, join the roster, and lead IT to victory in Kurukshetra sports.
+                        The elite lineup. Claim your jersey and lead IT to victory in Kurukshetra.
                     </p>
                 </motion.div>
 
